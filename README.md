@@ -26,7 +26,7 @@ pip install -r requirements.txt
 Run the CLI via the `main.py` entry point.
 
 ```bash
-python main.py add-user --name "Alex" --email "alex@example.com"
+python main.py add-user --name "Alex" --email "alex@moringaschool.com"
 python main.py list-users
 
 python main.py add-project --user "Alex" --title "CLI Tool" --due-date 2026-03-31
