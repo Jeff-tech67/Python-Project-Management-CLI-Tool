@@ -8,11 +8,11 @@ This command-line application simulates a multi-user project tracker. It allows 
 - Add projects to users and view projects by user
 - Assign tasks to projects and mark them complete
 - Persist data via JSON files under `data/` directory
-- Uses the `rich` package for pretty CLI output
+- Uses the `rich` package for CLI output
 
 ## Setup
 
-```bash
+```
 # create a virtual environment (optional but recommended)
 python -m venv venv
 source venv/bin/activate
@@ -25,7 +25,7 @@ pip install -r requirements.txt
 
 Run the CLI via the `main.py` entry point.
 
-```bash
+```
 python main.py add-user --name "Alex" --email "alex@moringaschool.com"
 python main.py list-users
 
@@ -40,7 +40,7 @@ python main.py complete-task --id 1
 Data files (`users.json`, `projects.json`, `tasks.json`) are stored in the `data/` folder automatically. If files are missing or malformed, the CLI will handle them gracefully.
 
 
-## Structure
+## Structure of the Folder
 
 ```
 /main.py
@@ -57,7 +57,7 @@ Data files (`users.json`, `projects.json`, `tasks.json`) are stored in the `data
 
 ```
 
-## Notes
+## Dependancis
 
 - Dependencies are in `requirements.txt` fil
 
